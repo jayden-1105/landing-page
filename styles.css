@@ -8,12 +8,18 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
+
+}
+
+.header-logo {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
+    justify-self: center;
+    padding-left: 100px;
 }
 
 .header ul {
@@ -23,6 +29,7 @@ body {
     list-style-type: none;
     gap: 15px;
     font-weight: 400;
+    padding-right: 100px;
 }
 
 /* Hero Css */
@@ -32,7 +39,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
-    gap: 50px;
+    gap: 75px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -44,7 +51,7 @@ body {
 }
 
 .hero img { 
-    width: 500px;
+    width: 550px;
     height: auto;
 }
 
@@ -70,5 +77,4 @@ body {
     padding: 10px;
     display: block;
     border: none;
-
 }
