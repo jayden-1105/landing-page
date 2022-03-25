@@ -140,6 +140,8 @@ body {
     font-weight: lighter;
 }
 
+/* Layer 3 Css */
+
 .layer3 {
     display: flex;
     margin: 70px 25%;
@@ -175,4 +177,15 @@ body {
 .layer3 p {
     color: #E5E7EB;
     font-size: 16px;
+}
+
+/* Footer Css */
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 16px;
+    justify-content: center;
+    padding-top: 5px;
 }
