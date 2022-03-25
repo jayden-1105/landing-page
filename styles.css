@@ -139,3 +139,40 @@ body {
     color: #1F2937;
     font-weight: lighter;
 }
+
+.layer3 {
+    display: flex;
+    margin: 70px 25%;
+    background-color: #3882F6;
+    border-radius: 10px;
+    justify-content: space-around;
+    border: none;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+.layer3 button {
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid #F9FAF8;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    color: #F9FAF8;
+    font-size: 16px;
+    
+}
+
+.layer3 h2 {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+.layer3 p {
+    color: #E5E7EB;
+    font-size: 16px;
+}
