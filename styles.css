@@ -43,6 +43,7 @@ body {
 
 .hero {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
@@ -98,6 +99,7 @@ body {
 
 .layer1 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
     flex-flow: row wrap;
